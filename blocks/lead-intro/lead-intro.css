@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 768px) {
     .lead-intro {
-        width: calc(100vw - (100vw - 100%));;
+        width: calc(100vw - (100vw - 100%));
     }
 }
 
