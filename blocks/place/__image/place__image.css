@@ -1,0 +1,27 @@
+.place__image {
+    height: 100vw;
+    width: 100vw;
+}
+
+@media screen and (min-width: 768px) {
+    .place__image {
+        height: calc(100vw * 0.44271);
+        width: calc(100vw * 0.44271);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .place__image {
+        height: calc(100vw * 0.4296875);
+        width: calc(100vw * 0.4296875);
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .place__image {
+        height: calc(100vw * 0.359375);
+        width: calc(100vw * 0.359375);
+        max-width: 460px;
+        max-height: 460px;
+    }
+}

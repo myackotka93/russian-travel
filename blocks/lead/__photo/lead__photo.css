@@ -1,0 +1,21 @@
+.lead__photo {
+    width: 100vw;
+    margin-top: 40px;
+    max-width: 984px;
+}
+
+@media screen and (min-width: 1024px){
+    .lead__photo {
+        width: 90.625vw;
+        height: 90.625vw / 1.6;
+        margin-top: 56px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .lead__photo {
+        width: 76.875vw;
+        height: 76.875vw / 1.6;
+        margin-top: 64px;
+    }
+}

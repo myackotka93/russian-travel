@@ -1,0 +1,8 @@
+.lang-links {
+    margin: 0;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+}

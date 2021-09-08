@@ -1,0 +1,21 @@
+.lead-intro {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 984px;
+}
+
+@media screen and (max-width: 768px) {
+    .lead-intro {
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .lead-intro {
+        width: 90.625vw;
+    }
+}
+

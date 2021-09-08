@@ -1,0 +1,24 @@
+.lead__caption {
+    width: 160px;
+    margin: 8px auto auto 16px;
+    font-family: "Inter", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+    .lead__caption {
+        margin: 8px 0 0 24px;
+    }  
+}
+
+@media screen and (min-width: 1024px) {
+    .lead__caption {
+        margin: 8px 0 0px;
+    }  
+}
