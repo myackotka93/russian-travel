@@ -1,5 +1,5 @@
 .lead__photo {
-    width: 100vw;
+    width: calc(100vw - (100vw - 100%));;
     margin-top: 40px;
     max-width: 984px;
 }

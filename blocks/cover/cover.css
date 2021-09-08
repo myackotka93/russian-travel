@@ -1,6 +1,6 @@
 .cover {
     margin: 66px 0 0 0;
-    width: 100vw;
+    width: calc(100vw - (100vw - 100%));;
 }
 
 @media screen and (min-width: 768px) {
