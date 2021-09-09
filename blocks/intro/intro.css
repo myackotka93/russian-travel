@@ -1,23 +1,23 @@
 .intro {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     align-items: flex-start;
     margin: 64px 16px 0 16px;
-    min-width: 288px;     
+    max-width: 984px;     
 }
 
 @media screen and (min-width: 768px) {
     .intro {
-        margin: 88px 0 0 0;
-        min-width: 720px;
+        margin: 88px 24px 0;
+        width: 93.75%;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .intro {
         margin: 92px 0 0;
-        max-width: 690px;
-        align-self: flex-start;
+        width: 90.625vw;
     }
 }
+
+
