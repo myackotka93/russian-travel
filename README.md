@@ -12,3 +12,6 @@
 - БЭМ
 - @import
 - calc
+
+##### Ссылка на GitHub Pages
+https://myackotka93.github.io/russian-travel/
