@@ -6,6 +6,7 @@
     font-size: 32px;
     line-height: 35px;
     justify-content: flex-end;
+    text-align: left;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,7 +1,13 @@
 .lead__photo {
     width: calc(100vw - (100vw - 100%));
-    margin-top: 40px;
+    margin: 40px 0 0;
     max-width: 984px;
+}
+
+@media screen and (min-width: 768px){
+    .lead__photo {
+        margin-top: 56px;
+    }
 }
 
 @media screen and (min-width: 1024px){
@@ -17,3 +23,5 @@
         margin-top: 64px;
     }
 }
+
+

@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin: 16px auto 0 auto;
+    margin: 16px 16px 0;
     width: 92.5%;
     max-width: 1184px;
 }

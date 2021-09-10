@@ -5,12 +5,9 @@
     grid-template-rows: repeat(4, max-content);
     grid-template-columns: fit-content;
     row-gap: 32px;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
-.place:last-of-type {
-    margin-bottom: 0;
-}
 
 @media screen and (min-width: 768px) {
     .place {    
@@ -35,4 +32,8 @@
         grid-template-columns: min-content max-content;
         column-gap: 40px;
     }
+}
+
+.place:last-of-type {
+    margin-bottom: 0;
 }
